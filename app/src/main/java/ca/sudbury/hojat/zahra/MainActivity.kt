@@ -33,6 +33,10 @@ class MainActivity : AppCompatActivity() {
                         // go to GridLayout
                         startActivity(Intent(this, GridLayoutActivity::class.java))
                     }
+                    1 -> {
+                        // go to EditTexts
+                        startActivity(Intent(this, EditTextsActivity::class.java))
+                    }
                 }
             }
         }

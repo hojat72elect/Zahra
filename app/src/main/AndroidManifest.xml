@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Zahra">
         <activity
+            android:name=".EditTextsActivity"
+            android:exported="false" />
+        <activity
             android:name=".GridLayoutActivity"
             android:exported="false" />
         <activity
