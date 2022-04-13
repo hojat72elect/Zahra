@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="characterOverFlow">
+        <item name="android:textColor">@color/colorError</item>
+    </style>
+</resources>

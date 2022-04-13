@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         // All GUI elements in this repo
         val GUI_Elements =
-            arrayListOf("GridLayout", "EditTexts", "AppCompatEditText", "Button")
+            arrayListOf("GridLayout", "EditTexts", "Buttons", "Seekbars", "ImageView")
 
         // ArrayAdapter for list
         val arrayAdapter =
