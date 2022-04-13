@@ -37,6 +37,10 @@ class MainActivity : AppCompatActivity() {
                         // go to EditTexts
                         startActivity(Intent(this, EditTextsActivity::class.java))
                     }
+                    2 -> {
+                        // go to buttons
+                        startActivity(Intent(this, ButtonsActivity::class.java))
+                    }
                 }
             }
         }

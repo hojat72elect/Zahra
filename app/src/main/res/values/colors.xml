@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="colorAccent">#40C4FF</color>
     <color name="colorError">#FF5252</color>
+    <color name="colorRaisedButton">#4CAF50</color>
+    <color name="colorRaisedButtonText">#FFFFFF</color>
 </resources>

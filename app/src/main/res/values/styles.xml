@@ -4,4 +4,16 @@
     <style name="characterOverFlow">
         <item name="android:textColor">@color/colorError</item>
     </style>
+
+    <style name="raisedButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="backgroundTint">@color/colorRaisedButton</item>
+        <item name="android:textColor">@color/colorRaisedButtonText</item>
+    </style>
+
+    <style name="FlatButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/colorFlatButton</item>
+    </style>
+
+
+    <color name="colorFlatButton">#2196F3</color>
 </resources>

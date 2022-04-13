@@ -7,7 +7,7 @@
     tools:context=".GridLayoutActivity">
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/raised_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_row="0"
