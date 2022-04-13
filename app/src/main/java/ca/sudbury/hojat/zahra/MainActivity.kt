@@ -1,8 +1,8 @@
 package ca.sudbury.hojat.zahra
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ArrayAdapter
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import ca.sudbury.hojat.zahra.databinding.ActivityMainBinding
@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         // All GUI elements in this repo
         val GUI_Elements =
-            arrayListOf("GridLayout", "NavigationDrawer", "AppCompatEditText", "Button")
+            arrayListOf("GridLayout", "EditTexts", "AppCompatEditText", "Button")
 
         // ArrayAdapter for list
         val arrayAdapter =
@@ -27,10 +27,13 @@ class MainActivity : AppCompatActivity() {
             it.adapter = arrayAdapter
             it.setOnItemClickListener { _, _, position, _ ->
 
-                Toast.makeText(this, "$position", Toast.LENGTH_SHORT).show()
-//                when (position) {
-//                    0 -> Toast.makeText(this, "0", Toast.LENGTH_SHORT).show()
-//                }
+
+                when (position) {
+                    0 -> {
+                        // go to GridLayout
+                        startActivity(Intent(this, GridLayoutActivity::class.java))
+                    }
+                }
             }
         }
 
